@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>User is logged out</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Sign in</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Login form</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C79</id>
+				<title>Use can be logged in entering non-empty email, password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C80</id>
+				<title>User can be logged in using non-empty username instead  of email</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CON-21</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C81</id>
+				<title>User has to see password mask while entering the password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C82</id>
+				<title>Username isn&apos;t register sensitive</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CON-21</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C83</id>
+				<title>User can be logged in  copying/pasting  the pair email password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C84</id>
+				<title>User can be logged in  if pair email password exist in db</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Sign up</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Usename</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C48</id>
+				<title>User can&apos;t be registered successfully entering username with 3 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CON-19</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C49</id>
+				<title>User can&apos;t be registered successfully entering username with 37 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CON-19</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C50</id>
+				<title>User can be registered successfully  entering username with 35 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CON-19</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C51</id>
+				<title>User can be registered successfully entering username with 4 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C52</id>
+				<title>User can be registered successfully  entering username with 5 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C53</id>
+				<title>User can&apos;t be registered successfully entering empty username</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C54</id>
+				<title>User can be registered successfully using unique username</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C56</id>
+				<title>User can be registered successfully using symbols “  -  _  “   for them name</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C57</id>
+				<title>User can&apos;t be registered with existing name but different register symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CON-19</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C58</id>
+				<title>User can be registered successfully  entering username with 36 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CON-19</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C59</id>
+				<title>User can be registered successfully using only latin characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CON-19</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C60</id>
+				<title>User can&apos;t be registered successfully entring username with more than 36 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C61</id>
+				<title>User can&apos;t be registered successfully entring username with less than 4 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CON-19</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Email</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C62</id>
+				<title>User can&apos;t be registered successfully with empty email</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C63</id>
+				<title>User can&apos;t be registered successfully using existing email</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C64</id>
+				<title>User can be registered successfully using integer/Latin/symbols( . _ +) characters for email name part</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C66</id>
+				<title>User can be registered successfully using email structure: [name]@[domain].[top-domain]</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C67</id>
+				<title>Name, domain, top-domain can&apos;t be empty</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Password</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C68</id>
+				<title>User can&apos;t be registered successfully with empty password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C69</id>
+				<title>User can be registered successfully only if password contains at least one symbol, one integer, capital letter.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CON-20</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C70</id>
+				<title>User can&apos;t be registered successfully with password longer than 30 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CON-20</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C71</id>
+				<title>User can&apos;t be registered successfully with password less than 4 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CON-20</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C72</id>
+				<title>User can be registered successfully entering password with 4 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C73</id>
+				<title>User can be registered successfully entering password with 5 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C74</id>
+				<title>User can be registered successfully entering password with 30 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C75</id>
+				<title>User can be registered successfully entering password with 29 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C76</id>
+				<title>User has to see password mask, while entering the password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C78</id>
+				<title>User can&apos;t be registeres successfully entring password with Integer/Characters/ Symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Global Feed</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Read more</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Popular tags</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>User is logged in</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>New post</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>New Post screen</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article title</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C85</id>
+				<title>User can&apos;t create article with  the empty article title field, in this case user sees error message: “Title of article can’t be empty (minimum 5 symbols)”</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C86</id>
+				<title>User can&apos;t create article with message length less than 5 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C87</id>
+				<title>User can create two or more articles with the same title</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C88</id>
+				<title>User can&apos;t create article with  message lenght more than 240 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C89</id>
+				<title>User can create article with message lenght = 240 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C90</id>
+				<title>User can create article with message lenght = 5 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C91</id>
+				<title>User can create article with message lenght = 6 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C92</id>
+				<title>User can create article with message lenght = 239 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C93</id>
+				<title>User can&apos;t create article  with first space character</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C94</id>
+				<title>User can&apos;t create article with  last space character</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C95</id>
+				<title>User can&apos;t create article with few space characters in a row</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>What’s this article about?</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C96</id>
+				<title>User can&apos;t create article with empty field. In this case user sees error message: “Body of article can&apos;t be blank.”</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C97</id>
+				<title>User can&apos;t create article with field length less then 20 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C98</id>
+				<title>User can&apos;t create article with field length more then 9000 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C99</id>
+				<title>User can create article with field length = 9000 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C100</id>
+				<title>User can create article with field length = 8999 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C101</id>
+				<title>User can create article with field length = 20 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C102</id>
+				<title>User can create article with field length = 21 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C103</id>
+				<title>User can&apos;t create article with any attachments in &quot;What&apos;s this article about?&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C104</id>
+				<title>User can slide-down right corner of text box to change its size</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Enter tags</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C105</id>
+				<title>User can create tags for his article for future sorting</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C106</id>
+				<title>User can create article if tag name with 1 character length</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C107</id>
+				<title>User can&apos;t create article if tag name with 2 characters length (only letters and numbers)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C108</id>
+				<title>User can&apos;t create article if tag name with length more than 30 characters  (only letters and numbers)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C109</id>
+				<title>User can create article if tag name with length =  29 characters (only letters and numbers)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C110</id>
+				<title>User can&apos;t create article if tag name without first symbol : #</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C111</id>
+				<title>User can&apos;t create article with with more than 10 tags</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C112</id>
+				<title>User can create article with with  10 tags</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C113</id>
+				<title>User can create article with with 9 tags</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C114</id>
+				<title>User can create article with with 1 tag</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C115</id>
+				<title>User can create article with with 2 tags</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C116</id>
+				<title>User can create article with less than 1 tag</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C117</id>
+				<title>User can&apos;t create article if current tag  equals with existing tag but some letters in different cases</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Settings</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Global feed</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Read more</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Your feed</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Popular tags</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Link to github</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C40</id>
+				<title>User can download the project  from  https://github.com/gothinkster/react-redux-realworld-example-app github page.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Account owner name</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>My articles</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Favourite articles</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Edit profile settings</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Article page</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C118</id>
+				<title>User can get on page by creating the article</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C119</id>
+				<title>User can get on page from “My Articles” tab on User page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C120</id>
+				<title>User can get on page from “Global feed” tab (when logged in as author)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C121</id>
+				<title>User can&apos;t write a comment in “Write a comment…” field with length  less than 1</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C122</id>
+				<title>User can&apos;t write a comment in “Write a comment…” field with length  more than 240</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C123</id>
+				<title>User can write a comment in “Write a comment…” field with length = 240</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C124</id>
+				<title>User can write a comment in “Write a comment…” field with length = 239</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C125</id>
+				<title>User can write a comment in “Write a comment…” field with length = 2</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C126</id>
+				<title>User can slide-down right corner of text box to change its size</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C127</id>
+				<title>User can be redirected to User page by clicking on name of author</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C128</id>
+				<title>User can delete their comment by clicking on bucket at the lower right corner (for authors of comment only)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+</suite>
