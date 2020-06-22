@@ -1,7 +1,7 @@
 Quickstart
 ----------
 
-CircleCI build:
+CircleCI:
 
 .. image:: https://circleci.com/gh/gothinkster/flask-realworld-example-app.png
 
