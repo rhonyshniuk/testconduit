@@ -1,0 +1,3716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Non-authourizet user</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Main Logo</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C5</id>
+				<title>Go to the main page of the site by clicking on the main logo</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Link &quot;Home&quot;</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Site title</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C6</id>
+				<title>Check title for layout</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C7</id>
+				<title>Check text for spelling errors</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>20 popular tags</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C8</id>
+				<title>Check the number of tags</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C9</id>
+				<title>Check clicking tag opens articles with that tag</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C10</id>
+				<title>Check that by clicking on the tag the channel is sorted and the channel opens</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Global feed list</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C13</id>
+				<title>Check that articles are sorted by publication date</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>List of Articles</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Photo  Users</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C11</id>
+				<title>Сheck user photo display</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Сlickability Name Users</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Date of article creation</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Article title</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Subheading of the article</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Link &quot;Read more...&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C12</id>
+				<title>Check that after clicking on &quot;Read more...&quot;  link the user gets to the article page&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Like&quot; icon</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C14</id>
+				<title>Check that when you click on the &quot;Like&quot; icon, the number of likes changes</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Footer pagination</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C15</id>
+				<title>Сheck that the transition to the selected page in pagination is carried out</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Sign in</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C123</id>
+				<title>The user goes to the login form after clicking on the &quot;Sign in&quot; link on the main page of the site</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C124</id>
+				<title>The authorization page on the site contains two text fields - one for entering the email address / username, the other for entering the password and the [Sign In] button.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CON-10</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Link &quot;Need an account?&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C18</id>
+				<title>Go to the registration page when clicking &quot;Need an account?&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Field &quot;Email&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C3</id>
+				<title>Authorization error when entering characters (&quot;,%,?, *, Etc.) in the email field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C16</id>
+				<title>Authorization error in the absence of the &quot;@&quot; sign in the email</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C113</id>
+				<title>Error entering email for unregistered user</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C114</id>
+				<title>Data can be deleted after entering in the field &quot;Email&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C115</id>
+				<title>Data can be inserted in the &quot;Email&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C116</id>
+				<title>Lower and upper case letters can be entered in the &quot;Email&quot; field (Abcd)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references>CON-11</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Field &quot;Password&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C117</id>
+				<title>The user is authorized when entering the password with which he is registered</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C118</id>
+				<title>Authorization error on the site when entering a nonexistent password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C119</id>
+				<title>Password mask in the form of dots when entering data in the &quot;Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C120</id>
+				<title>User can delete data from &quot;Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C121</id>
+				<title>User can edit data from &quot;Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C122</id>
+				<title>he user can insert data in the &quot;Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Sign in&quot; button</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C19</id>
+				<title>User logs in to the site after clicking on &quot;Sign in&quot; button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Username</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C107</id>
+				<title>The user can enter Latin letters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>CON-10</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C108</id>
+				<title>User can enter lower and upper case Latin letters in the field(AbCd)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>CON-10</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C109</id>
+				<title>&quot;Username&quot; field is not case sensitive (test=TEST)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>CON-10</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C110</id>
+				<title>An error occurred while entering a nonexistent name in the &quot;Username&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CON-10</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C111</id>
+				<title>The username can be inserted into the &quot;Username&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>CON-10</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C112</id>
+				<title>The data in the &quot;Username&quot; field can be deleted from the line</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CON-10</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Sign up</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C21</id>
+				<title>User can registered in to the site with valid data.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C79</id>
+				<title>An error message appears for fields marked as mandatory if you leave the fields &quot;e-mail&quot;, &quot;Username&quot; empty</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C80</id>
+				<title>An error message appears for fields marked as mandatory if you leave the field  &quot;Username&quot; empty</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C81</id>
+				<title>An error message appears for fields marked as mandatory if you leave the field &quot;e-mail&quot; empty</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C82</id>
+				<title>An error message appears for fields marked as mandatory if you leave the fields &quot;e-mail&quot;, &quot;Confirm password&quot; empty</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CON-7</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Field &quot;Username&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C22</id>
+				<title>Error message when entering 3 Latin letters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C25</id>
+				<title>User can create a username from 4 Latin letters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C70</id>
+				<title>User can create a username from 5 Latin letters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C71</id>
+				<title>User can create a username from 35 Latin letters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CON-5</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C72</id>
+				<title>User can create a username from 36 Latin letters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references>CON-5</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C73</id>
+				<title>Error message when entering 37 Latin letters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C74</id>
+				<title>The user can create a username from Latin letters in upper and lower case in the &quot;Username&quot; field  (&quot;AbCd&quot;)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C75</id>
+				<title>Error message in the &quot;Username&quot; window when entering the letters of the Cyrillic alphabet</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C76</id>
+				<title>Error message when entering special characters (&quot;, No.,;,:,?,%, Etc.)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CON-6</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C77</id>
+				<title>Entered spaces before and after the main text are truncated.  Correct data display: &quot;Username&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C78</id>
+				<title>An error message appears stating that the user with the specified name is already registered in the system when entering the registered name</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C85</id>
+				<title>Data is valid using the &quot;spaces&quot;  and &quot;-&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Field &quot;Email&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C86</id>
+				<title>Data were validated by entering an email in the format [name]@[domain].[top-domain] (test@mail.com)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C87</id>
+				<title>An error message appears about the incorrect format of the E-mail address in the absence of the &quot;@&quot; sign</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C88</id>
+				<title>An error message appears about the incorrect format of the E-mail address in the absence of the &quot;.&quot; sign</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C89</id>
+				<title>Error messages appear about the incorrect format of the E-mail address when you enter special characters (%,:,?, *, Etc.) in the email field except for the characters: @,., +</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C90</id>
+				<title>Data is validated in the email field when entering Latin upper and lower case letters(AbC@mail.com)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C91</id>
+				<title>Data is validated in the email field when you enter numbers in the field(123@mail.com)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C92</id>
+				<title>An error message appears stating that the user with the specified E-mail is already registered in the system when entering an already registered E-mail</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Field &quot;Password&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C24</id>
+				<title>Error message when entering 3 characters in the password field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C27</id>
+				<title>Error message when entering 31 characters in the password field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C93</id>
+				<title>Password is successfully validated by entering 4 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C94</id>
+				<title>Password is successfully validated by entering 5 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C95</id>
+				<title>Password is successfully validated by entering 29 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C96</id>
+				<title>Password is successfully validated by entering 30 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C97</id>
+				<title>Password successfully passes validation when entering numbers in the &quot;Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C98</id>
+				<title>Password successfully passes validation when entering Latin letters in the &quot;Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C99</id>
+				<title>Password successfully passes validation when entering special characters in the &quot;Password&quot; field (@,#,^, Etc.)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C100</id>
+				<title>When you enter values ​​in the Password field, the data is masked with dots.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C101</id>
+				<title>Near the field, there is a special symbol &quot;*&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																<estimate></estimate>
+																								<references>CON-8</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C102</id>
+				<title>Error message if there is no data in the &quot;Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C103</id>
+				<title>When entering numbers, a capital letter and a symbol, the data in the password field is validated</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C104</id>
+				<title>Error message if there is no digit in the &quot;Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>CON-9</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C105</id>
+				<title>Error message if there is no capital letter in the &quot;Password&quot;  field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CON-9</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C106</id>
+				<title>Error message if there is no sign in the &quot;Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>CON-9</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Field &quot;Confirm password&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C83</id>
+				<title>An error message appears that the data in the fields &quot;Password&quot; and &quot;Confirm password&quot; do not match each other when entering different data</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references>CON-7</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C84</id>
+				<title>Data is encrypted with dots when entering data in the &quot;Confirm password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CON-7</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Article Page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Photo  User</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C31</id>
+				<title>Check image display</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>User name</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Article text</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C32</id>
+				<title>Check font and alignment of article text</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Title</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Date of publication of the article</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Link &quot;Sign in&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C30</id>
+				<title>Check that when you click on the link &quot;Sign in&quot; user gets to the authorization page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Link &quot;Sign up&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C29</id>
+				<title>Check that when you click on &quot;Sign up&quot; link the user gets to the registration page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>User is authorized</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Main Logo</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C33</id>
+				<title>Check that by clicking on the site logo the user goes to the main page of the site</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Home</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>20 popular tags</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C34</id>
+				<title>Check the number of tags</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C35</id>
+				<title>Check clicking tag opens articles with that tag</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C36</id>
+				<title>Check that by clicking on the tag the channel is sorted and the channel opens</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Tab &quot;You feed&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C37</id>
+				<title>Articles belong to an authorized user only</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>User article list</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Photo  Users</name>
+		<description></description>
+									</section>
+			<section>
+		<name>User name</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Date of article creation</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Article title</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Subheading of the article</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Like&quot; icon</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Tab &quot;Global Feed&quot;</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>List of Articles</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C40</id>
+				<title>Check that articles are sorted by publication date</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Photo  Users</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C38</id>
+				<title>Сheck user photo display</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Name User</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Date of article creation</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Article title</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Subheading of the article</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Link &quot;Read more...&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C41</id>
+				<title>Check that after clicking on &quot;Read more...&quot;  link the user gets to the article page&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Like&quot; icon</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C39</id>
+				<title>Check that when you click on the &quot;Like&quot; icon, the number of likes changes</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>New Post</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Field &quot;Article Title&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C42</id>
+				<title>Enter five characters in the &quot;Article title&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C125</id>
+				<title>Enter 240 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C126</id>
+				<title>Enter 5 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C127</id>
+				<title>Enter 239 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C128</id>
+				<title>An error message appears when you enter 3 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C129</id>
+				<title>An error message appears when you enter 241 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C130</id>
+				<title>Check that special characters can be entered in the field (&quot;, №, %, etc.)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C131</id>
+				<title>Error if user leaves field blank</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C132</id>
+				<title>It is possible to create articles with the same Article Title</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C133</id>
+				<title>It is possible to enter numbers in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C134</id>
+				<title>It is possible to enter lower and upper case letters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C135</id>
+				<title>Field glows red when you enter a space in front of the text and at the end of the text</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Field &quot;What&apos;s this article about?&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C43</id>
+				<title>Empty field &quot;What&apos;s this article about?&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C136</id>
+				<title>User can enter 10 values ​​in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C137</id>
+				<title>It is possible to enter numbers in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C138</id>
+				<title>It is possible to remove values ​​from the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C139</id>
+				<title>It is possible to enter special characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C140</id>
+				<title>Error entering 9 values</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C141</id>
+				<title>Error entering 241 values</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C142</id>
+				<title>User can enter 11 values ​​in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C143</id>
+				<title>User can enter 239 values ​​in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C144</id>
+				<title>Error if you leave the field blank</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C145</id>
+				<title>Field glows red when you enter a space in front of the text and at the end of the text</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Field &quot;Write your article (in markdown)&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C44</id>
+				<title>Error “Body of article can&apos;t be blank.”  appears if the field is left blank</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C146</id>
+				<title>User can enter 20 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C147</id>
+				<title>User can enter 9000 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C148</id>
+				<title>An error is displayed when entering 19 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C149</id>
+				<title>An error is displayed when entering 9001 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C150</id>
+				<title>User can enter 8999 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C151</id>
+				<title>User can enter 21 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C152</id>
+				<title>User can enter lower and upper case letters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C153</id>
+				<title>User can enter numbers in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C154</id>
+				<title>User can enter special characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C155</id>
+				<title>Input error while entering spaces in the text at the beginning and at the end of the text</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C156</id>
+				<title>User cannot attach documents, pictures, photos in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C157</id>
+				<title>The user can resize the window by dragging the right corner of the field down</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Field &quot;Enter tags&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C45</id>
+				<title>Empty field &quot;Enter tags&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C158</id>
+				<title>User can leave the field blank.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C159</id>
+				<title>User can create a tag using the format &quot;#tag&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C160</id>
+				<title>Tag creation error if there is no special character &quot;#&quot; at the beginning of a word</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C161</id>
+				<title>User can create a 2 character tag</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C162</id>
+				<title>User can create a 10 character tag</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C163</id>
+				<title>Error creating tag if tag consists of 1 character</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C164</id>
+				<title>Error creating tag if tag consists of 31 character</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C165</id>
+				<title>Error creating a tag if the tag consists of special characters (&quot;, No.,%,:, etc.)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C166</id>
+				<title>Field can contain 1 tag</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C167</id>
+				<title>Field can contain 10 tags</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C168</id>
+				<title>An error is displayed if the field contains 11 tags</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Publish Article] button</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C46</id>
+				<title>The user successfully creates an article if the required fields &quot;Article Title&quot;, &quot;What&apos;s this article about?&quot;, &quot;Write your article (in markdown)&quot; are filled with data after clicking the [Publish Article] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C169</id>
+				<title>An error is displayed if the required fields &quot;Article Title&quot;, &quot;What&apos;s this article about?&quot;, &quot;Write your article (in markdown)&quot; are not filled with data after clicking the [Publish Article] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C170</id>
+				<title>Data disappears from the filled windows if the user does not click on the [Publish Article] button and goes to another page of the site</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C171</id>
+				<title>After successful publication of an article, the user gets redirected to the User&apos;s Article page.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>User article page</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C179</id>
+				<title>User profile is available after authorization on the site.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C180</id>
+				<title>The user can get to the page from the “My Articles” tab on the user’s page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C236</id>
+				<title>The user can go to the page from the Global Channel tab (if you are logged in as an author) on the user’s page.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C237</id>
+				<title>User can get to the User article page by creating an article</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C238</id>
+				<title>User article page consists of Title of the article, User’s avatar and name, Date of publication, “Edit article” button, “Delete article” button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Title</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C239</id>
+				<title>Title of the article corresponds to the created title</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Name User</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C240</id>
+				<title>The username corresponds to the user who owns the page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>User Photo</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C47</id>
+				<title>Check user photo display</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Date of article creation</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C242</id>
+				<title>Date corresponds to the publication date of the article.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Edit Article] button</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C49</id>
+				<title>Сheck that the article is deleted after clicking on [Edit Article] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C50</id>
+				<title>Check that the user goes to the article editing page after clicking on [Edit Article] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Delete Article] buton</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Article text</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Comments field</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C51</id>
+				<title>Check the ability to leave comments</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C243</id>
+				<title>User can enter 1 character in the Comments field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C244</id>
+				<title>User can enter 240 characters in the Comments field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C245</id>
+				<title>User can enter numbers in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C246</id>
+				<title>User can enter special characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C247</id>
+				<title>User can enter letters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C248</id>
+				<title>Error is displayed when entering 241 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C249</id>
+				<title>An error is displayed if the field is left blank and the [Post Comment] button is pressed</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Post Comment]</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C250</id>
+				<title>Сomment added after clicking the [Post Comment] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Delete comment]  button</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C251</id>
+				<title>Comment can be deleted by comment creator</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C252</id>
+				<title>Comment cannot be deleted by user who did not create comment</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C253</id>
+				<title>After clicking the [Delete comment] button, the comment is deleted</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Settings</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Field &quot;URL of profile picture&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C52</id>
+				<title>Upload a picture to the site in &quot;URL of profile picture&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Field &quot;Username&quot; users</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C53</id>
+				<title>Empty field &quot;Username&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Field &quot;Short bio about you&quot;</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Field &quot;Email&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C54</id>
+				<title>Empty field &quot;Email&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C55</id>
+				<title>Email Lower Case</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C56</id>
+				<title>Uppercase Email</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C57</id>
+				<title>Email without domain part</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Field &quot;New password&quot;</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Update Settings] button</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C58</id>
+				<title>Changes saved after clicking on [Update Settings] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Or click here to logout.] button</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C59</id>
+				<title>Go to the &quot;Home&quot; page after clicking on [Or click here to logout.] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>User profile page</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C174</id>
+				<title>User profile is available after authorization on the site.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C175</id>
+				<title>The user can get to the page from the “My Articles” tab on the user’s page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C176</id>
+				<title>The user can get to the page on the tab &quot;Global channel&quot; (if you are logged in as the author)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C177</id>
+				<title>The user can get to the page by creating an article</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Name User</name>
+		<description></description>
+									</section>
+			<section>
+		<name>User Photo</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Subtitle</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Edit Profile Settings] button</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C60</id>
+				<title>Check user’s transition to profile editing after clicking on [Edit Profile Settings] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Tab &quot;My Articles&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C172</id>
+				<title>Registered user can see the page “My Articles”</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C173</id>
+				<title>By clicking on the tab “My Articles” the user gets into the list of his articles</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>User list of articles</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Photo  Users</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C62</id>
+				<title>Сheck user photo display</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Name Users</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Date of article creation</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Article title</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C178</id>
+				<title>The title of the article corresponds to the created title.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Subheading of the article</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Link &quot;Read more...&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C65</id>
+				<title>Check that after clicking on &quot;Read more...&quot;  link the user gets to the article page&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Like&quot; icon</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C63</id>
+				<title>Check that when you click on the &quot;Like&quot; icon, the number of likes changes</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Tab &quot;Favorited Articles&quot;</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>List of Articles</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C68</id>
+				<title>Check that articles are sorted by publication date</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Photo  Users</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C66</id>
+				<title>Сheck user photo display</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Name Users</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Date of article creation</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Article title</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Link &quot;Read more...&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C69</id>
+				<title>Check that after clicking on &quot;Read more...&quot;  link the user gets to the article page&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Subheading of the article</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Like&quot; icon</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C67</id>
+				<title>Check that when you click on the &quot;Like&quot; icon, the number of likes changes</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Edit article screen</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C181</id>
+				<title>An authorized user can get to the article editing screen</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C182</id>
+				<title>Article editing screen is not available to an unauthorized user</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C183</id>
+				<title>Changes to the article are saved after clicking on the &quot;Edit article&quot; button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C184</id>
+				<title>You can edit the article after filling in all the required fields and clicking on the &quot;Edit article&quot; button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C185</id>
+				<title>Error editing an article if you leave the &quot;Article Title&quot; field blank</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C186</id>
+				<title>Error editing an article if you leave the &quot;What&apos;s this article about?&quot; field blank</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C187</id>
+				<title>Error editing an article if you leave the &quot;Write your article(in markdown)&quot; field blank</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C188</id>
+				<title>Changes to the article are not saved if the user clicks the &quot;Cancel&quot; button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C189</id>
+				<title>The button &quot;Edit article&quot; works if you do not change the data in the fields of the article</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C190</id>
+				<title>Changes are saved if you do not fill out the &quot;Tags&quot; field and click the &quot;Edit article&quot; button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Field &quot;Article Title&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C199</id>
+				<title>Enter five characters in the &quot;Article title&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C200</id>
+				<title>Enter 240 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C201</id>
+				<title>Enter 5 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C202</id>
+				<title>An error message appears when you enter 3 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C203</id>
+				<title>An error message appears when you enter 241 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C204</id>
+				<title>Check that special characters can be entered in the field (&quot;, №, %, etc.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C205</id>
+				<title>Error if user leaves field blank</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C206</id>
+				<title>Field glows red when you enter a space in front of the text and at the end of the text</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Field &quot;What&apos;s this article about?&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C207</id>
+				<title>Empty field &quot;What&apos;s this article about?&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C208</id>
+				<title>User can enter 10 values ​​in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C209</id>
+				<title>It is possible to enter numbers in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C210</id>
+				<title>It is possible to enter special characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C211</id>
+				<title>Error entering 9 values</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C212</id>
+				<title>Error entering 241 values</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C213</id>
+				<title>Field glows red when you enter a space in front of the text and at the end of the text</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Field &quot;Write your article (in markdown)&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C214</id>
+				<title>Error “Body of article can&apos;t be blank.” appears if the field is left blank</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C215</id>
+				<title>User can enter 20 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C216</id>
+				<title>User can enter 9000 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C217</id>
+				<title>An error is displayed when entering 19 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C218</id>
+				<title>An error is displayed when entering 9001 characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C219</id>
+				<title>User can enter lower and upper case letters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C220</id>
+				<title>User can enter numbers in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C221</id>
+				<title>User can enter special characters in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C222</id>
+				<title>Input error while entering spaces in the text at the beginning and at the end of the text</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C223</id>
+				<title>User cannot attach documents, pictures, photos in the field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C224</id>
+				<title>The user can resize the window by dragging the right corner of the field down</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Field &quot;Enter tags&quot;</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C225</id>
+				<title>User can leave the field blank</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C226</id>
+				<title>User can create a tag using the format &quot;#tag&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C227</id>
+				<title>Tag creation error if there is no special character &quot;#&quot; at the beginning of a word</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C228</id>
+				<title>User can create a 2 character tag</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C229</id>
+				<title>User can create 10 character tag</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C230</id>
+				<title>Error creating tag if tag consists of 1 character</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C231</id>
+				<title>Error creating tag if tag consists of 31 character</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C232</id>
+				<title>Error creating a tag if the tag consists of special characters (&quot;, No.,%,:, etc.)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C233</id>
+				<title>Field can contain 1 tag</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C234</id>
+				<title>Field can contain 10 tag</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C235</id>
+				<title>An error is displayed if the field contains 11 tags</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>“Edit article” button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>“Cancel” button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+</suite>
