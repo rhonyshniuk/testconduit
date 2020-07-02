@@ -1,0 +1,1587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Non-Authorized users</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Home</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Global Feed</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Articles</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C1</id>
+				<title>Profile avatar</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>https://react-redux.realworld.io/#/?_k=yyyiyk</references> 
+																				<custom>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized &amp; non-authorized</preconds>
+										<steps>1. Go to Global Feed
+2. Click on avatar of article&apos;s author</steps>
+										<expected>On click on the author&apos;s profile, displays a profile of author</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Banner &quot;Popular tags&quot;</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Tags</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C2</id>
+				<title>Tag&apos;s banner</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>https://react-redux.realworld.io/#/?_k=yyyiyk</references> 
+																				<custom>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized &amp; non-authorized</preconds>
+										<steps>1. Take a look at banner &quot;Popular tags&quot;
+2. Click on any tag</steps>
+										<expected>Click on link displays articles which include that tag</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Header</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Logo</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Home(link)</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Sign in</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Authorization form</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C49</id>
+				<title>&quot;Need an account&quot; text links to sign up page</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>https://react-redux.realworld.io/#/?_k=yyyiyk</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: non-authorized
+
+</preconds>
+										<expected>Link &quot;Need an account&quot; redirects to sign up page</expected>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Email/username&quot; field</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C15</id>
+				<title>User can input/copy/paste text in email/username field</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>https://react-redux.realworld.io/#/?_k=yyyiyk</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: non-authorized</preconds>
+										<expected>It&apos;s possible for the user to input/copy/paste text and special symbols (&quot;.&quot;, &quot;_&quot;, &quot;@&quot;)</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C31</id>
+				<title>Error: &quot;Email/username field can&apos;t be blank&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: non-authorized</preconds>
+										<expected>When user tries to leave field empty, error message &quot;Email/username field can&apos;t be blank&quot; appears</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C32</id>
+				<title>Error: &quot;Email isn&apos;t correct&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>https://react-redux.realworld.io/#/?_k=yyyiyk</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: non-authorized</preconds>
+										<expected>When user tries to enter email, that isn&apos;t registered in DB, error message &quot;Email isn&apos;t correct&quot; appears.</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C35</id>
+				<title>Error: &quot;Username isn&apos;t correct&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: non-authorized
+
+</preconds>
+										<expected>When user tries to input incorrect username (text without &quot;@&quot;), error message &quot;Username isn&apos;t correct&quot; appears.</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Password&quot; field</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C16</id>
+				<title>User can fill the field</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>https://react-redux.realworld.io/#/?_k=yyyiyk</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: non-authorized</preconds>
+										<expected>It&apos;s possible for the user to fill the field</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C38</id>
+				<title>Error: &quot;Password isn&apos;t correct&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: non-authorized</preconds>
+										<expected>When user tries to input password, which doesn&apos;t match the password in DB for this email/username, error message &quot;Password isn&apos;t correct&quot; appears.</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C37</id>
+				<title>Error: &quot;Password field can&apos;t be blank&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: non-authorized
+
+</preconds>
+										<expected>When user tries to leave the password field empty, error message &quot;Password field can&apos;t be blank&quot; appears.</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C36</id>
+				<title>Password masking</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: non-authorized
+
+</preconds>
+										<expected>When user input anything in the password field, it masks into special symbols &quot;*&quot;</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Sign in] button</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C50</id>
+				<title>User can sign in</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: non-authorized
+
+</preconds>
+										<expected>Authorization is possible if the user tries to input email/username and matching password which were registered in the DB</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C51</id>
+				<title>User can&apos;t sign in if email isn&apos;t correct</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: non-authorized
+
+</preconds>
+										<expected>Authorization is impossible if the user tries to input email which wasn&apos;t registered in the DB</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C52</id>
+				<title>User can&apos;t sign in if username isn&apos;t correct</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: non-authorized
+
+</preconds>
+										<expected>Authorization is impossible if the user tries to input username which wasn&apos;t registered in the DB</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C53</id>
+				<title>User can&apos;t sign in if password isn&apos;t correct</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: non-authorized
+
+</preconds>
+										<expected>Authorization is impossible if the user tries to input password which doesn&apos;t match inputted email/username</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Sign up</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Registration form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Username&quot; field</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C12</id>
+				<title>Username</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>https://react-redux.realworld.io/#/?_k=yyyiyk</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: non-authorized</preconds>
+										<steps>1. Take a look at the header
+2. Click on &quot;Sign up&quot; link
+3. Fill in field &quot;Username&quot; following rules:
+- min 4 letters
+- max 36 letters
+- only Latin characters
+- using spec symbols “ - _ “
+- no using Register sensitive
+- name must be unique</steps>
+										<expected>User can input field following rules
+If user break rule, error message will be shown</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Email&quot; field</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C13</id>
+				<title>Email field</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>https://react-redux.realworld.io/#/?_k=yyyiyk</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: non-authorized</preconds>
+										<steps>1. Pass the &quot;C12&quot; test case (Username)
+2. Fill in field &quot;Email&quot; following rules:
+- the format of the email must be [name]@[domain].[top-domain]
+- email must be unique</steps>
+										<expected>User can fill field following rules
+If user break rules, error message will be shown</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Password&quot; field</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C14</id>
+				<title>Password field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: non-authorized</preconds>
+										<steps>1. Pass the &quot;C12&quot; and &quot;C13&quot; test cases (username and email)
+2. Fill in field password following rules:
+- it must include min 4 and max 30 letters
+- there must be at least one symbol, one integer, capital letter</steps>
+										<expected>User can fill field following rules
+If user break rule, error message will be shown</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Sign up] button</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C3</id>
+				<title>User registration</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>QAMAY20ZXC</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: non-authorized</preconds>
+										<steps>1. Take a look at the header
+2. Click on &quot;Sign up&quot; link
+3. Pass &quot;C12&quot; test case (username)
+4. Pass &quot;C13&quot; test case (email)
+5. Pass &quot;c14&quot; test case (password)
+6. Fill in &quot;Repeat Password&quot; field
+7. Click on the button [Sign up]</steps>
+										<expected>1. User can register following rules
+2. User can&apos;t register not following rules</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Footer (Github banner)</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C5</id>
+				<title>Github link</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Low</priority>
+																<estimate></estimate>
+																								<references>https://react-redux.realworld.io/#/?_k=yyyiyk</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized &amp; non-authorized
+
+</preconds>
+										<steps>1. Take a look at the footer
+2. Click on &quot;Fork on Github&quot; link</steps>
+										<expected>Banner links to GitHub repository</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Authorized users</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Home</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Global feed</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Articles</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C10</id>
+				<title>Like</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>https://react-redux.realworld.io/#/?_k=yyyiyk</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<steps>1. Click on &quot;Global feed&quot; link
+2. Find any created article
+3. Click on [Like] button</steps>
+										<expected>+1 like to article like counter</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C7</id>
+				<title>Write a comment</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>https://react-redux.realworld.io/#/?_k=yyyiyk</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized
+
+</preconds>
+										<steps>1. Go to &quot;Global Feed&quot;
+2. Click on any article
+3. Click on the &quot;Write a comment...&quot; banner
+4. Fill required field
+5. Click on the [Post comment] button</steps>
+										<expected>The comment appeared under the post</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Your feed</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Unsubscribed users</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Text &quot;No articles here, yet&quot;</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Subscribed users</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Articles of subscribed authors</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Banner &quot;Popular tags&quot;</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Tags</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Header</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Logo</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Home(link)</name>
+		<description></description>
+									</section>
+			<section>
+		<name>New post(link)</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Article title&quot; field</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C17</id>
+				<title>User can publish article inputting letters, numbers, special characters, spaces (if it not the first or few in a row) in Article title field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<steps>Fill the &quot;Article title field&quot;</steps>
+										<expected>Article will be published
+</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C22</id>
+				<title>Error &quot;Article title can&apos;t consider more than 240 symbols&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<expected>If user typed more than 240 symbols in the article field. error message &quot;Article title can&apos;t consider more than 240 symbols&quot; will appear</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C23</id>
+				<title>Error &quot;Article title can consider spaces only if it not first and few in a row&quot; when user tries to input space as the first character</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<expected>If user typed spaces at the beginning, error message &quot;Article title can consider spaces only if it not first and few in a row&quot; will appear </expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C21</id>
+				<title>Error &quot;Title of article can’t be empty (minimum 5 symbols)&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<expected>If user left field empty or typed less than 5 sympols, error message &quot;Title of article can’t be empty (minimum 5 symbols)&quot; will appear</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C40</id>
+				<title>Article publishing is possible with Article title field length 5 symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<expected>It&apos;s possible to the user to publish the article with length 5 symbols</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C41</id>
+				<title>Article publishing is possible with Article title field length 6 symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized
+
+</preconds>
+										<expected>It&apos;s possible for the user to publish the article with length 6 symbols</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C42</id>
+				<title>Article publishing is possible with Article title field length 239 symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized
+
+</preconds>
+										<expected>It&apos;s possible for the user to publish the article with length 239 symbols</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C43</id>
+				<title>Article publishing is possible with Article title length 240 symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized
+
+</preconds>
+										<expected>It&apos;s possible for the user to publish the article with article title length 240 symbols</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C46</id>
+				<title>It&apos;s possible for the user to create two articles with same titles</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<expected>User can create two articles with same titles </expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C47</id>
+				<title>Error &quot;Article title can consider spaces only if it not first and few in a row&quot; when user tries to input space as few in a row</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<expected>If the user typed spaces few in a row, error message &quot;Article title can consider spaces only if it not first and few in a row&quot; will appear</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C48</id>
+				<title>If user typed spaces at the end, error message &quot;Article title can consider spaces only if it not first and few in a row&quot; will appear</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized
+
+</preconds>
+										<expected>If the user typed spaces as the last character, error message &quot;Article title can consider spaces only if it not first and few in a row&quot; will appear</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;What is article about&quot; field</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C18</id>
+				<title>User can publish article inputting letters, numbers, special characters, spaces (if it not the first or few in a row) in the Article description field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<steps>Fill the &quot;What is article about&quot; field</steps>
+										<expected>Article will be published</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C24</id>
+				<title>Error &quot;Description of article can’t be empty (minimum 5 symbols)&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<expected>If user typed less than 5 sympols, error message &quot;Description of article can’t be empty (minimum 10 symbols)&quot; will appear</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C26</id>
+				<title>Error &quot;Article description can&apos;t consider more than 240 symbols&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<expected>If user typed more than 240 symbols in the article field. error message &quot;Article description can&apos;t consider more than 240 symbols&quot; will appear</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C25</id>
+				<title>Error &quot;Article description can consider spaces only if it not first and few in a row&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<expected>If user typed spaces at the beginning or few in a row, error message &quot;Article description can consider spaces only if it not first and few in a row&quot; will appear</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C54</id>
+				<title>Check if the field is requiered</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<expected>If user left field empty, error message &quot;Descriptiom of article can’t be empty (minimum 5 symbols)&quot; will appear</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C55</id>
+				<title>Article publishing is possible with field length 239 symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<expected>It&apos;s possible for the user to publish the with field length 239 symbols</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C56</id>
+				<title>Article publishing is possible with field length 10 symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized
+
+</preconds>
+										<expected>It&apos;s possible for the user to publish the article with field length 10 symbols</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C57</id>
+				<title>Article publishing is possible with field length 11 symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<expected>It&apos;s possible for the user to publish the article with field length 11 symbols</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Write your article&quot; field</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C27</id>
+				<title>Error &quot;Article can’t be empty (minimum 20 symbols)&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<expected>If user typed less than 20 sympols, error message &quot;Article can’t be empty (minimum 20 symbols)&quot; will appear</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C28</id>
+				<title>Error &quot;Article can consider spaces only if it not first and few in a row&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized
+
+</preconds>
+										<expected>If user typed spaces at the beginning or few in a row, error message &quot;Article can consider spaces only if it not first and few in a row&quot; will appear</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C29</id>
+				<title>Error &quot;Article can&apos;t consider more than 9000 symbols&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized
+
+</preconds>
+										<expected>If user typed more than 9000 symbols in the &quot;Write your article&quot; field, error message &quot;Article can&apos;t consider more than 9000 symbols&quot; will appear</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C30</id>
+				<title>User can publish article inputting letters, numbers, special characters, spaces (if it not the first, last or few in a row) in Article field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<steps>Fill the &quot;Article title field&quot;</steps>
+										<expected>Article will be published</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C58</id>
+				<title>Check if field is required</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized
+
+</preconds>
+										<expected>If user left field empty, error message &quot;Article can’t be empty (minimum 20 symbols)&quot; will appear</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C59</id>
+				<title>Article publishing is possible with field length 8999 symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized
+
+</preconds>
+										<expected>It&apos;s possible for the user to publish the with field length 8999 symbols</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C60</id>
+				<title>Article publishing is possible with field length 9000 symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized
+
+</preconds>
+										<expected>It&apos;s possible for the user to publish the with field length 9000 symbols</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C61</id>
+				<title>Article publishing is possible with field length 20 symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized
+
+</preconds>
+										<expected>It&apos;s possible for the user to publish the with field length 20 symbols</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C62</id>
+				<title>Article publishing is possible with field length 21 symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized
+
+</preconds>
+										<expected>It&apos;s possible for the user to publish the with field length 21 symbols</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C63</id>
+				<title>Check if user can&apos;t attach any attachments</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized
+
+</preconds>
+										<expected>Article don’t accept any attachments</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C64</id>
+				<title>Check if user can slide-down right corner of text box to change its size</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized
+
+</preconds>
+										<expected>If user slide-down right corner of text box, it changes it&apos;s size</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Tags&quot; field</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C20</id>
+				<title>Check if it&apos;s possible for the user to add tag</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<steps>Enter possible tags</steps>
+										<expected>User tags will be shown in the article </expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C65</id>
+				<title>Adding tag is possible if tag consider 2 symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<expected>It&apos;s possible for the user to add the tag with field length 2 symbols</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C66</id>
+				<title>Adding tag is possible if tag consider 3 symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized
+
+</preconds>
+										<expected>It&apos;s possible for the user to add the tag with field length 3 symbols</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C67</id>
+				<title>Adding tag is possible if tag consider 29 symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized
+
+</preconds>
+										<expected>It&apos;s possible for the user to add the tag with field length 29 symbols</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C68</id>
+				<title>Adding tag is possible if tag consider 30 symbols</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized
+
+</preconds>
+										<expected>It&apos;s possible for the user to add the tag with field length 30 symbols</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C69</id>
+				<title>Error: &quot;Tag can&apos;t consider less than 2 symbols&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<expected>If user tries to input tag with 1 symbol, error message &quot;Tag can&apos;t consider less than 2 symbols&quot; will appear</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C70</id>
+				<title>Error: &quot;Tag can&apos;t consider more than 30 symbols&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized
+
+</preconds>
+										<expected>If user tries to input tag with 1 symbol, error message &quot;Tag can&apos;t consider more than 30 symbols&quot; will appear</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Publish article] button</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C6</id>
+				<title>Check if user can create and publish a post</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<steps>1. Take a look at the footer
+2. Click on &quot;New post&quot; link
+3. Pass all sub-cases
+4. Click on the [Publish article] button</steps>
+										<expected>Article will be shown in user&apos;s profile and global feed and user will be redirected to the user&apos;s page</expected>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Article preview</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Settings</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C11</id>
+				<title>User profile settings</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<steps>1. Take a look at the header
+2. Click on your username
+3. Click on [Edit profile settings] button
+4. Edit all fields
+5. Click on the [Update settings] button</steps>
+										<expected>User settings were updated</expected>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;URL of profile picture field&quot;</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Username&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Bio&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Email&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;New password&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Update settings] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Log out] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Profile username(link)</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>User avatar</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Username</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Edit profile settings] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>My articles</name>
+		<description></description>
+						
+		<cases>
+									
+						<case>
+				<id>C9</id>
+				<title>Delete article</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>https://react-redux.realworld.io/#/?_k=yyyiyk</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<steps>1. Click on your username in the header
+2. Click on any created article
+3. Click on [Delete article] button</steps>
+										<expected>Article was deleted</expected>
+									</custom>
+							</case>
+												
+						<case>
+				<id>C8</id>
+				<title>Edit article</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>https://react-redux.realworld.io/#/?_k=yyyiyk</references> 
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Operation system: any
+Resolution: any
+Browser: Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari
+Authorization: authorized</preconds>
+										<steps>1. Click on the your profile username at the header
+2. Click on any created article
+3. Click on the [Edit article] button
+4. Edit all fields
+5. Click on the [Publish article] button</steps>
+										<expected>Article components were changed</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Favorited articles</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Footer (GitHub banner)</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+</suite>
