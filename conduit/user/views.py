@@ -56,6 +56,7 @@ def get_user():
 @marshal_with(user_schema)
 def update_user(**kwargs):
     user = current_user
+    raise TypeError
     # take in consideration the password
     password = kwargs.pop('password', None)
     if password:

@@ -1,0 +1,25 @@
+version: "3.7"
+
+services:
+
+  flask:
+    container_name: "flask"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    entrypoint: ["flask", "run", "--host", "0.0.0.0"]
+    ports:
+      - "0.0.0.0:5000:5000"
+
+  sample:
+    container_name: sample
+    build:
+      context: .
+      dockerfile: DockerfileNode
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '4100:4100'
+    environment:
+      - NODE_ENV=development
