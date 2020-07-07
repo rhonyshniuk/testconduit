@@ -23,7 +23,7 @@ environment variables ::
 
 Then run the following commands to bootstrap your environment ::
 
-    git clone https://github.com/gothinkster/flask-realworld-example-app.git
+    git clone https://github.com/rhonyshniuk/testconduit.git
     cd flask-realworld-example-app
     pip install -r requirements/dev.txt
 
