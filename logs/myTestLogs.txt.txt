@@ -1,0 +1,48 @@
+Attaching to sample, flask
+[33msample    |[0m
+[33msample    |[0m > react-redux-realworld-example-app@0.1.0 start /app
+[33msample    |[0m > cross-env PORT=4100 react-scripts start
+[33msample    |[0m
+[36mflask     |[0m  * Serving Flask app "/app/autoapp.py" (lazy loading)
+[36mflask     |[0m  * Environment: production
+[36mflask     |[0m    WARNING: This is a development server. Do not use it in a production deployment.
+[36mflask     |[0m    Use a production WSGI server instead.
+[36mflask     |[0m  * Debug mode: on
+[36mflask     |[0m  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[36mflask     |[0m  * Restarting with stat
+[36mflask     |[0m  * Debugger is active!
+[36mflask     |[0m  * Debugger PIN: 492-802-202
+[33msample    |[0m Starting the development server...
+[33msample    |[0m
+[33msample    |[0m Compiled successfully!
+[33msample    |[0m
+[33msample    |[0m You can now view react-redux-realworld-example-app in the browser.
+[33msample    |[0m
+[33msample    |[0m   Local:            http://localhost:4100/
+[33msample    |[0m   On Your Network:  http://172.18.0.2:4100/
+[33msample    |[0m
+[33msample    |[0m Note that the development build is not optimized.
+[33msample    |[0m To create a production build, use npm run build.
+[33msample    |[0m
+[36mflask     |[0m 172.18.0.1 - - [01/Jul/2020 19:25:39] "[37mOPTIONS /api/user HTTP/1.1[0m" 200 -
+[36mflask     |[0m 172.18.0.1 - - [01/Jul/2020 19:25:39] "[37mGET /api/user HTTP/1.1[0m" 200 -
+[36mflask     |[0m 172.18.0.1 - - [01/Jul/2020 19:25:39] "[37mOPTIONS /api/tags HTTP/1.1[0m" 200 -
+[36mflask     |[0m 172.18.0.1 - - [01/Jul/2020 19:25:39] "[37mOPTIONS /api/articles/feed?limit=10&offset=0 HTTP/1.1[0m" 200 -
+[36mflask     |[0m 172.18.0.1 - - [01/Jul/2020 19:25:39] "[37mGET /api/tags HTTP/1.1[0m" 200 -
+[36mflask     |[0m 172.18.0.1 - - [01/Jul/2020 19:25:39] "[37mGET /api/articles/feed?limit=10&offset=0 HTTP/1.1[0m" 200 -
+[36mflask     |[0m 172.18.0.1 - - [01/Jul/2020 19:25:41] "[37mOPTIONS /api/articles?limit=10&offset=0 HTTP/1.1[0m" 200 -
+[36mflask     |[0m 172.18.0.1 - - [01/Jul/2020 19:25:41] "[37mGET /api/articles?limit=10&offset=0 HTTP/1.1[0m" 200 -
+[36mflask     |[0m 172.18.0.1 - - [01/Jul/2020 19:25:43] "[37mOPTIONS /api/profiles/smaciiqw HTTP/1.1[0m" 200 -
+[36mflask     |[0m 172.18.0.1 - - [01/Jul/2020 19:25:43] "[37mOPTIONS /api/articles?author=smaciiqw&limit=5&offset=0 HTTP/1.1[0m" 200 -
+[36mflask     |[0m 172.18.0.1 - - [01/Jul/2020 19:25:43] "[37mGET /api/profiles/smaciiqw HTTP/1.1[0m" 200 -
+[36mflask     |[0m 172.18.0.1 - - [01/Jul/2020 19:25:43] "[37mGET /api/articles?author=smaciiqw&limit=5&offset=0 HTTP/1.1[0m" 200 -
+[36mflask     |[0m 172.18.0.1 - - [01/Jul/2020 19:25:46] "[37mOPTIONS /api/articles?favorited=smaciiqw&limit=5&offset=0 HTTP/1.1[0m" 200 -
+[36mflask     |[0m 172.18.0.1 - - [01/Jul/2020 19:25:46] "[37mGET /api/profiles/smaciiqw HTTP/1.1[0m" 200 -
+[36mflask     |[0m 172.18.0.1 - - [01/Jul/2020 19:25:46] "[37mGET /api/articles?favorited=smaciiqw&limit=5&offset=0 HTTP/1.1[0m" 200 -
+[36mflask     |[0m 172.18.0.1 - - [01/Jul/2020 19:25:53] "[37mOPTIONS /api/articles HTTP/1.1[0m" 200 -
+[36mflask     |[0m 172.18.0.1 - - [01/Jul/2020 19:25:53] "[37mPOST /api/articles HTTP/1.1[0m" 200 -
+[36mflask     |[0m 172.18.0.1 - - [01/Jul/2020 19:25:53] "[37mOPTIONS /api/articles/ff HTTP/1.1[0m" 200 -
+[36mflask     |[0m 172.18.0.1 - - [01/Jul/2020 19:25:53] "[37mOPTIONS /api/articles/ff/comments HTTP/1.1[0m" 200 -
+[36mflask     |[0m 172.18.0.1 - - [01/Jul/2020 19:25:53] "[37mGET /api/articles/ff/comments HTTP/1.1[0m" 200 -
+[36mflask     |[0m 172.18.0.1 - - [01/Jul/2020 19:25:53] "[37mGET /api/articles/ff HTTP/1.1[0m" 200 -
+Gracefully stopping... (press Ctrl+C again to force)
